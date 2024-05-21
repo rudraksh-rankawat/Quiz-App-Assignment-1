@@ -9,7 +9,7 @@ This is a simple quiz app created as part of an assignment. It's built using HTM
 - **Score Tracking**: Keep track of your score as you progress through the quiz.
 
 ## How to Use
-1. Visit the [Quiz App](https://yasharya2901.github.io/QuizApp/index.html) to start the quiz.
+1. Visit the [Quiz App](https://rudraksh-rankawat.github.io/Quiz-App-Assignment-1/) to start the quiz.
 2. Click on the "Play" button to begin.
 3. Select an answer for each question.
 4. Proceed to the next question after selecting an answer.
