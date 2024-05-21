@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <container>
+        <div class="question-score">
+            <div class="question-tag">
+                <div>
+                    <p class="question-text">Question</p>
+                    <progress id="progress-bar" value="0" max="3"></progress>
+                </div>
+                <p class="num-val">0/3</p>
+            </div>
+            <div class="score-tag">
+                <div class="score-text">Score</div>
+                <h1 class="score-val">0</h1>
+            </div>
+        </div>
+        <div class="question">
+            <h1 id="question-text">What is the answer to this Question?</h1>
+            <div>
+                <div class="option"  id="option1">
+                    <span class="inner-box">A</span>
+                    <span id="option-text1">Choice 1</span>
+                </div>
+                <div class="option" id="option2">
+                    <span class="inner-box">B</span>
+                    <span id="option-text2">Choice 2</span>
+                </div>
+                <div class="option" id="option3">
+                    <span class="inner-box">C</span>
+                    <span id="option-text3">Choice 3</span>
+                </div>
+                <div class="option" id="option4">
+                    <span class="inner-box">D</span>
+                    <span id="option-text4">Choice 4</span>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+
+        <div id="end-screen" class="hidden">
+            <h2>Your Score: <span id="final-score"></span></h2>
+            <button id="play-again">Play Again</button>
+            <button id="go-home">Go Home</button>
+        </div>
+    </container>
+    
+</body>
+
+</html>
